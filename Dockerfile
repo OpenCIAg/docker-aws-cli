@@ -1,5 +1,5 @@
 FROM ciag/aws-cli
 RUN apk -v --update add \
         docker
-ENTRYPOINT ["sh"]
+ENTRYPOINT []
 CMD sh
